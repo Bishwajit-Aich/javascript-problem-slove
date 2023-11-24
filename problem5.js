@@ -10,14 +10,11 @@
 
     var index = fruits.indexOf('Banana');
     console.log(index);
+    fruits[1] = 'mango';
 
 
-    fruits.pop();
-    fruits.pop();
-    fruits.push('Mango');
-    fruits.push('orange')
-    fruits.pop();
-    fruits.push('Watermelon');
+fruits.pop();
+fruits.push('Watermelon');
     
-    console.log(fruits)
+    console.log(fruits);
    
