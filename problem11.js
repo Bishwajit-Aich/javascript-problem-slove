@@ -5,7 +5,7 @@
 
 var oddNumbers = 1;
 
-while(oddNumbers < 100){
+while(oddNumbers <= 100){
     console.log(oddNumbers);
     oddNumbers+=2;
 }
